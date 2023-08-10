@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 09, 2023 at 06:12 PM
+-- Generation Time: Aug 10, 2023 at 07:34 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -42,15 +42,6 @@ CREATE TABLE `studentgrievence` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `studentgrievence`
---
-
-INSERT INTO `studentgrievence` (`gid`, `sname`, `studentname`, `register_number`, `email`, `department`, `year`, `gender`, `gtype`, `grievence`, `status`) VALUES
-(2, 'Aayapa', 'Shiva', '21B91A6201', 'rksspraveen.789@gmail.com', 'CSE', '2024', 'other', 'Ragging Related', 'Rama', 1),
-(3, 'Chatrathi', 'Ravi Kumar Satya Sai Praveen', '21B91A6206', 'ravikumar_csd@srkrec.edu.in', 'CSE', '2025', 'Femal', 'Ragging Related', 'sddd', 1),
-(4, 'Ohm', 'Shiva Bhavani', '21B91A6202', 'ravikumar_csd@srkrec.edu.in', 'CSE', '2025', 'Femal', 'Hostel Related', 'Rama Krishna Garu ame', 1);
-
---
 -- Indexes for dumped tables
 --
 
@@ -68,7 +59,7 @@ ALTER TABLE `studentgrievence`
 -- AUTO_INCREMENT for table `studentgrievence`
 --
 ALTER TABLE `studentgrievence`
-  MODIFY `gid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `gid` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

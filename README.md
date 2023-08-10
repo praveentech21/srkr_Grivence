@@ -17,3 +17,6 @@ Directly uplode this files to the root directory (Where index is avabile this pa
 No assests are uplodes to this repo
 
 import the sql files to exsisting sql then SRKR Grivence project Done SHIVA
+
+
+My college Grivence Completed Shiva

@@ -2,7 +2,7 @@
 include 'connect.php';
 session_start();
 if (isset($_POST['checkadmin'])) {
-    if ($_POST['adminpass'] == "SRRK#1990@GRE") {
+    if ($_POST['adminpass'] == "SRKR#1990@GRE") {
         $_SESSION['adminpass'] = "Jai Sri Ram";
     } else {
         echo "<script>alert('Wrong Password');</script>";

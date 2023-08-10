@@ -2,11 +2,10 @@
 include 'connect.php';
 if (isset($_POST['studentgrievence'])) {
     $recaptchaSecretKey = '6LcZkpAnAAAAALWzOiP4FruTsihH8jybGyNqnGK4';
-$recaptchaResponse = $_POST['g-recaptcha-response'];
-$verifyUrl = 'https://www.google.com/recaptcha/api/siteverify';
-
-$response = file_get_contents($verifyUrl . "?secret=$recaptchaSecretKey&response=$recaptchaResponse");
-$responseData = json_decode($response);
+    $recaptchaResponse = $_POST['g-recaptcha-response'];
+    $verifyUrl = 'https://www.google.com/recaptcha/api/siteverify';
+    $response = file_get_contents($verifyUrl . "?secret=$recaptchaSecretKey&response=$recaptchaResponse");
+    $responseData = json_decode($response);
 
 
     if ($responseData->success) {
@@ -32,6 +31,12 @@ $responseData = json_decode($response);
     }
 }
 if (isset($_POST['staffgrievence'])) {
+    $recaptchaSecretKey = '6LcZkpAnAAAAALWzOiP4FruTsihH8jybGyNqnGK4';
+    $recaptchaResponse = $_POST['g-recaptcha-response'];
+    $verifyUrl = 'https://www.google.com/recaptcha/api/siteverify';
+    $response = file_get_contents($verifyUrl . "?secret=$recaptchaSecretKey&response=$recaptchaResponse");
+    $responseData = json_decode($response);
+
     if ($responseData->success) {
         $staff_name = $_POST['staff_name'];
         $staff_id = $_POST['staff_id'];

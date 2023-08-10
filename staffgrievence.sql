@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 09, 2023 at 06:12 PM
+-- Generation Time: Aug 10, 2023 at 07:33 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -41,13 +41,6 @@ CREATE TABLE `staffgrievence` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `staffgrievence`
---
-
-INSERT INTO `staffgrievence` (`gid`, `staff_name`, `staff_id`, `dept`, `designation`, `gender`, `mobile`, `gtype`, `grievence`, `status`) VALUES
-(1, 'uoghui', 'iugijlgu', 'CSD', 'Professor', 'Male', '7856', 'Women Grievence/Sexual Harassment Related', 'sdf', 1);
-
---
 -- Indexes for dumped tables
 --
 
@@ -65,7 +58,7 @@ ALTER TABLE `staffgrievence`
 -- AUTO_INCREMENT for table `staffgrievence`
 --
 ALTER TABLE `staffgrievence`
-  MODIFY `gid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `gid` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
