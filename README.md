@@ -12,3 +12,8 @@ I dont want to make this as a seperate floder with all new UI
 I just want to make this as a page of my college exsisting website so I am not creating a floder i am creating files of sepereta pages I dont want to add all the assests to ths floder I just want to use the exsiting my college website page and after that I will give this pages here shiva
 
 
+Directly uplode this files to the root directory (Where index is avabile this pages will work)
+
+No assests are uplodes to this repo
+
+import the sql files to exsisting sql then SRKR Grivence project Done SHIVA
